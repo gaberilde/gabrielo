@@ -12,6 +12,28 @@
     -1px 1px 0 #000,
      1px 1px 0 #000;
 }
+.connectedAccountName-f8AEe2 {
+    color: white;
+}
+.theme-dark .note-3kmerW textarea {
+    color: white;
+}
+.note-QfFU8y textarea, .note-QfFU8y textarea::placeholder {
+    color: white;
+	  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.userInfoSectionHeader-CBvMDh {
+    color: #bcb7b7;
+	  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
 /*
   /$$$$$$
  /$$__  $$
