@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
+.theme-dark .markup-2BOw-j {
+	color:white;
+}
+.name-2WpE7M {
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
 /*
   /$$$$$$
  /$$__  $$
@@ -168,7 +178,7 @@ body::before {
 .container-2lgZY8 {
 	background: transparent !important;
 }
-/*Makes aurora compatible with monsters addons*/
+/*Makes Gabora compatible with monsters addons*/
 .theme-dark,
 .appMount-3VJmYg {
 	--primary-color: rgba(0,0,0,0.75);
@@ -200,7 +210,7 @@ body::before {
 
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
 .theme-light .layer-3QrUeG:first-of-type::before {
-  content: "Sorry, but light mode isnt supported in Aurora yet. :( ~Tropical";
+  content: "Sorry, but light mode isnt supported in Gabora yet. :( ~Tropical";
   text-align:center;
   width: 500px;
   position:absolute;
@@ -270,7 +280,7 @@ body::before {
     padding-top:0px !important;
 }
 .wordmark-2iDDfm:after {
-	content:'Aurora v2.6';
+	content:'Gabora v3.0';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -946,7 +956,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /*3.q. Tags (v2 FEATURE, REDACTED)
 .message-1PNnaP[data-user-id*="254362351170617345"] .da-timestampCozy:before {
-    content: "Aurora Dev";
+    content: "Gabora Dev";
     background:var(--main-color);
     color: #fff;
     border-radius: 4px;
@@ -976,7 +986,7 @@ div[style*="width: 100%; height: 20px"] {
 .message-1PNnaP[data-user-id*="261354004569653248"] .da-timestampCozy:before,
 .message-1PNnaP[data-user-id*="252460828157018112"] .da-timestampCozy:before,
 .message-1PNnaP[data-user-id*="348593749372174337"] .da-timestampCozy:before {
-    content: "Aurora Bug Hunter";
+    content: "Gabora Bug Hunter";
     background:var(--main-color-faded);
     color: rgba(255,255,255,0.8);
     border-radius: 4px;
@@ -1294,13 +1304,6 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .acronym-2mOFsV:hover {
     background:var(--main-color) !important;
 }
-.listItem-2P_4kh {
-    margin-left:10px;
-}
-.pill-31IEus {
-    width:30px;
-    margin-left:-10px;
-}
 .item-2hkk8m {
     margin-left:6px;
     border-radius:50px;
@@ -1576,15 +1579,6 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
   margin-left:55px;
   margin-top:-5px;
   background:var(--main-color);
-}
-.membersGroup-v9BXpm {
-  color: var(--hover-color) !important;
-  border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--gradient1), var(--gradient2), transparent);
-  border-image-slice: 1;
-  padding: 19px 16px 6px 16px;
-  margin: 4px 0px 10px 15px;
-  text-align: center;
 }
 
 /*6.c. User Status*/
@@ -3634,7 +3628,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 #bd-settingspane-container .bda-slist::before {
-  content:"What's new in Aurora 2.x\A -Collapsed Search bar \A -Many new addons \A-Light Theme Blocker \A-New Unread/Selected Indicators \A-Redesigned User Profile Modal\A-New Titlebar \A-Remove Compatibility Tags \A-Changed Server Dropdown \A-New Context Menu Animations \A-Redesigned Account Details Container \A-Members List Tweaks \A-Rework Variable System for var(--main-color); \A-Color Discords Grey SVG's\A-New Group DM Icon \A-Category Animations \A-Redesign Reactions \A-Tall Emoji Picker \A-New Loading Screen Container \A Support server:https://bit.ly/derealised.";
+  content:"What's new in Gabora 2.x\A -Collapsed Search bar \A -Many new addons \A-Light Theme Blocker \A-New Unread/Selected Indicators \A-Redesigned User Profile Modal\A-New Titlebar \A-Remove Compatibility Tags \A-Changed Server Dropdown \A-New Context Menu Animations \A-Redesigned Account Details Container \A-Members List Tweaks \A-Rework Variable System for var(--main-color); \A-Color Discords Grey SVG's\A-New Group DM Icon \A-Category Animations \A-Redesign Reactions \A-Tall Emoji Picker \A-New Loading Screen Container \A Support server:https://bit.ly/derealised.";
   display: block;
   line-height:22px;
   font-size:18px;
@@ -4244,7 +4238,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .bda-slist li[data-name="FullSizePfp"]:after,
 .bda-slist li[data-name="Large Chat Avatars"]:after,
 .bda-slist li[data-name="ServerColumns"]:after {
-    content:'Compatible with Aurora';
+    content:'Compatible with Gabora';
     background:var(--main-color);
     padding:2px;
     width:160px;
